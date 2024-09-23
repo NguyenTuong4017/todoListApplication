@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import TodoListWithDelete from "./TodoListWithDelete";
-import "./TodoListWithDelete.css";
+import TodoTable from "./TodoTable";
+import "./TodoTable.css";
 function App() {
   const [desc, setDesc] = useState("");
   const [date, setDate] = useState("");
@@ -53,7 +53,7 @@ function App() {
         </button>
       </div>
 
-      <TodoListWithDelete
+      <TodoTable
         handleDelete={handleDelete}
         dateList={dateList}
         descList={descList}

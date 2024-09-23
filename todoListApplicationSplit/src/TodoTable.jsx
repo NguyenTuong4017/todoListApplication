@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import "./TodoListWithDelete.css";
-function TodoListWithDelete({ handleDelete, dateList, descList }) {
+import "./TodoTable.css";
+function TodoTable({ handleDelete, dateList, descList }) {
   return (
     <div>
       <table id="list">
@@ -40,4 +40,4 @@ function TodoListWithDelete({ handleDelete, dateList, descList }) {
   );
 }
 
-export default TodoListWithDelete;
+export default TodoTable;
